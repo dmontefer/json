@@ -1,0 +1,21 @@
+{
+  "nodes": [
+    {"id": "DCNET", "group": 1},
+    {"id": "ON BASE", "group": 2},
+    {"id": "CRM", "group": 3},
+    {"id": "EVOLUTION", "group": 4},
+    {"id": "NE - 4.4", "group": 1},
+    {"id": "NE - 4.5", "group": 1},
+    {"id": "NE - 4.6", "group": 1},
+    {"id": "DA - 4.6", "group": 2},
+    {"id": "DA - 4.7", "group": 2},
+    {"id": "AD - 4.8", "group": 3},		
+  ],
+  "links": [
+    {"source": "DCNET", "target": "NE - 4.4", "value": 5},
+    {"source": "DCNET", "target": "DA - 4.6", "value": 8},
+    {"source": "EVOLUTION", "target": "DA - 4.6", "value": 10},
+    {"source": "EVOLUTION", "target": "DA - 4.7", "value": 6},
+    {"source": "CRM", "target": "AD - 4.8", "value": 1},
+  ]
+}
